@@ -4,7 +4,6 @@ import {   Email, LinkRounded,  LocationOn, Phone, } from '@mui/icons-material';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import { makeStyles } from '@mui/styles';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
@@ -14,7 +13,7 @@ import Header from '../components/Header';
 
 
 function ContactUs() {
-    // const classNamees = useStyles();
+
 
     const renderMap = () => {
         const mapOptions = {
